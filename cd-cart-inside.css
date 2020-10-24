@@ -1,0 +1,12 @@
+.imgcontain{
+	width:400px;
+	height: 300px;
+	margin-top: 50px;
+}
+img{
+    opacity:1;
+    transition:opacity 0.5s linear;
+}
+.tooltip {
+    position: relative;
+}
