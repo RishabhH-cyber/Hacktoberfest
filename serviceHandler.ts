@@ -18,7 +18,7 @@ export class UserService {
 
  private apiUrl = 'https://localhost:8082/api/users/profile';
 
-
+private hittingPoint = 'https://localhost:8080';
 
  constructor(private http: HttpClient) { }
 
