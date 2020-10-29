@@ -50,3 +50,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.tooltip1{
+    content: "";
+    visibility: hidden;
+    position: absolute;
+    top: 96%;
+    left: 36%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent #555 transparent ;
+}
+.tooltip:hover .tooltip1, .tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+   
+}
