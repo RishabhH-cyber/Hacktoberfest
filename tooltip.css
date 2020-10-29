@@ -29,7 +29,7 @@
     width: 120px;
     top: 101%;
     left: 50%; 
-    margin-left: -60px;
+    margin-left: -6rem;
 }
 .tooltip1::before{
     content: "";
@@ -37,8 +37,8 @@
     position: absolute;
    top: 96%;
     left: 36%;
-    margin-left: -5px;
-    border-width: 5px;
+    margin-left: -5rem;
+    border-width: 5rem;
     border-style: solid;
     border-color:  transparent  transparent #555 transparent ;
 }
